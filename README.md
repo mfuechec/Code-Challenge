@@ -1,28 +1,19 @@
-# Mindful Software Code Challenge
+## Welcome to my README!
 
-## Description
+# Basic Authentication
+This app just authorizes login information locally.
 
-This repo is for the code challenge to work for Mindful Software.
+# Persisting Data
+Data is persisted through Async Storage. The array of journal entries that makes up a user's feed is attached to the email address they login with.
 
-Your task is to fork this repo and develop an expo application. This application will be a journal for the user. You are free to use any dependencies you want.
+# LLM
+This app uses OpenAI to analyze the mood of journal entries. You can find that setup in the AddNewModal component.
 
-The requirements are:
+# Filtering and Organization
+Filtering can be found in the UpdateFilters component, which makes use of a SortOptions and FilterOptions sub components.
 
-- [ ] Create basic authentication
-- [ ] Allow the user to create journal entries tied to their user account. Persist the data in any way you choose.
-- [ ] Use an LLM of your choice to analyze the journal entries and add mood metadata to each entry. This needs to be conveyed instantly to the user for easy digestion.
-- [ ] Add filtering and organization to the journal list so it can be organized and filtered by base mood. (i.e. happiness level, fear level, etc.)
-
-## Results
-
-You work will be scored based on several categories:
-
-- [ ] Does it meet the requirements?
-- [ ] Code Organization and quality
-- [ ] Bugs Present
-- [ ] UI/UX
-- [ ] Code Process
-- [ ] LLM Integration and prompting methods
-- [ ] Time to completion
-
-When work is completed contact @Full-lifey with a link to the forked repo
+## Running the app
+First, add the OpenAI_API_Key on line 15 of the AddNewModal component.
+Then,
+`npm i`
+`yarn ios`
