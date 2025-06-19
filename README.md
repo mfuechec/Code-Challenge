@@ -13,7 +13,7 @@ This app uses OpenAI to analyze the mood of journal entries. You can find that s
 Filtering can be found in the UpdateFilters component, which makes use of a SortOptions and FilterOptions sub components.
 
 ## Running the app
-First, add the OpenAI_API_Key on line 15 of the AddNewModal component.
+First, add the OpenAI_API_Key on line 15 of the AddNewModal component. I sent this key in an email to Amy Perez.
 Then,
 `npm i`
 `yarn ios`
